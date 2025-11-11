@@ -394,7 +394,7 @@ const Locales = () => {
                                 <Select.Option value="Débito">Débito</Select.Option>
                                 <Select.Option value="Crédito">Crédito</Select.Option>
                                 <Select.Option value="Transferencia">Transferencia</Select.Option>
-                                <Select.Option value="Webpay">Webpay</Select.Option>
+                                    <Select.Option value="Mercado Pago">Mercado Pago</Select.Option>
                             </Select>
                         </Form.Item>
 
