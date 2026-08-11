@@ -70,7 +70,7 @@ const Locales = () => {
                 uid: `existing-${store.sub}`,
                 name: store.image.split('/').pop(),
                 status: 'done',
-                url: `${BACKEND_URL}${store.image}`,
+                url: store.image.startsWith('http') ? store.image : `${BACKEND_URL}${store.image}`,
             });
         } else {
             setImageFile(null);
